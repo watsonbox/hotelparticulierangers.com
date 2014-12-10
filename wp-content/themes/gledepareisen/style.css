@@ -1,0 +1,254 @@
+/*   
+Theme Name: Glede Pa Reisen
+Theme URI: 
+Description: Wordpress themre for http://www.gledepareisen.no/.
+Author: Howard Wilson
+Author URI: http://watsonbox.net/
+Template: twentyeleven
+Version: 1.0
+.
+*/
+
+/* WordPress Modifications */
+
+.section-heading,
+.screen-reader-text {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+}
+
+.only-search {
+  position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+}
+
+.page .entry-title {
+  display: none;
+}
+
+#site-generator {
+  display: none;
+}
+
+
+/* Main Theme */
+
+a { color: #AB3700; }
+a:hover { color: #D16500; }
+
+h1,h2,h3,h4,h5,h6,p,img,a {
+  outline: 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #8C1C1C;
+  font-family: Georgia;
+  font-size: 1.6em;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #8C1C1C;
+  font-family: Georgia;
+  font-size: 1.4em;
+  font-weight: normal;
+  margin: 10px 0;
+}
+
+h3 {
+  color: #8C1C1C;
+  font-family: Georgia;
+  font-size: 1.2em;
+  font-weight: normal;
+  margin: 10px 0;
+}
+
+p {
+  padding-bottom: 10px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Helvetica, Arial, sans-serif;
+	color: #444;
+	font-size: 80%;
+	background-color: #222;
+}
+
+#page {
+  margin: 15px auto;
+  width: 960px;
+  text-align: left;
+  border: 2px solid #BF8B5E;
+  padding: 2px;
+  background-color: #FFFFFF;
+  clear: both;
+}
+
+header#branding {
+  position: relative;
+  background-color: #fff;
+}
+
+#lang_sel {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  opacity: 0.9;
+  filter:alpha(opacity=90);
+}
+
+#main {
+  padding: 10px 20px;
+  padding-top: 20px;
+}
+ 
+#column-1 {
+  width: 440px;
+  float: left;
+}
+
+#column-2 {
+  width: 440px;
+  float: right;
+}
+
+nav {
+  z-index: 1000;
+  position: relative;
+  opacity: 0.9;
+  margin-top: -62px;
+  border-top: solid 4px #8C4014;
+}
+
+nav ul {
+  background-color: #711B17;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	overflow: hidden;
+	padding: 0 5px;
+}
+
+nav ul li {
+	float: left;
+	width: 20%;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li a {
+	float: left;
+	margin: 0;
+	padding: 10px;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #D9AB82;
+	-webkit-transition: color .3s linear;
+}
+	
+nav li a em {
+  display: block;margin: 2px 0 0 0;
+  font-size: .9em;
+  font-style: normal;
+  text-transform: none;
+  font-weight: normal;
+  letter-spacing: 0;
+  opacity: .7;
+}
+
+nav li.current_page_item a {
+  color: #fff;
+}
+
+nav li a:hover {
+  color: #fff;
+}
+
+nav li.active a {
+  color: #fff;
+}
+
+#nav li.active a em {    
+  opacity: .6;    
+}
+
+footer {
+  clear: both;
+  color: #9a9a9a;
+  text-align: center;
+  font-size: 90%;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+#main img {
+  border: 4px solid #BF8B5E;
+  padding: 2px;
+}
+
+#main .map {
+  border: 4px solid #BF8B5E;
+  padding: 2px;
+}
+
+.contactForm {
+  margin-top: 20px;
+}
+
+.contactForm label
+{
+	display:block;
+	font-weight:bold;
+}
+
+.contactForm .textbox,
+.contactForm .textarea,
+.contactForm .submit
+{
+	border:1px solid #ccc;
+	padding:6px;
+	font-weight:bold;
+	color:#777;
+	width:400px;
+}
+
+.contactForm .textarea
+{
+	width:400px;
+	height:100px;
+}
+
+.contactForm .submit
+{
+	background:#91BD49;
+	color:#fff;
+	font-size:90%;
+	font-weight:bold;
+	width:150px;
+}
+
+.contact_form input, .contact_form textarea
+{
+	color:green;
+	border:1px solid #ccc;
+}
+
+#submit
+{
+	background:#91BD49;
+	color:#fff;
+	font-size:90%;
+	font-weight:bold;
+	width:150px;
+}
